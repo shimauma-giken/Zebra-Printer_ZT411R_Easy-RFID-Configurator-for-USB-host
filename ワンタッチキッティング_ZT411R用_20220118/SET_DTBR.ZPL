@@ -34,5 +34,5 @@
 ! U1 do "zpl.calibrate" ""
 
 -- RFID 調整
-! U1 setvar "rfid.tag.calibrate" "run"
+setvar "rfid.tag.calibrate" "run"
 
