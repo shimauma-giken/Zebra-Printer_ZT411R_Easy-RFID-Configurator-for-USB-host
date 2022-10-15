@@ -5,7 +5,8 @@ USBメモリを用いてZT411Rを簡単設定する方法
 2. Fat32 フォーマット済みのUSBメモリにダウンロードしたファイルを全てコピーする。  
    USB内のファイル構成は下記の通りとなる。
      
-   USB:.  
+<pre>     
+USB:.  
 │  DEL_STAMP.ZPL    USB-Mirrorタイムスタンプを削除  
 │  SET_DTBR.ZPL     感熱、黒マークラベル設定用ファイル  
 │  SET_DTGP.ZPL     感熱、ギャップラベル設定用ファイル      
@@ -23,7 +24,7 @@ USBメモリを用いてZT411Rを簡単設定する方法
     └─files  
             Feedback.get    アップデート処理結果の受領設定  
             ipag.ttf        IPA Gothic フォント  
-   
+   </pre>
 
 3. USBメモリをZT411に挿す。
 4. USB-Mirrorの処理が終了するまで待つ（1-2分）
